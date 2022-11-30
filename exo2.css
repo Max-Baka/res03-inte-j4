@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-color:#497f54 ;
+    margin: 0;
+    width: 100vw;
+    height:100vh;
+    display:grid;
+    grid-template-rows : repeat (3, 1fr);
+}
+
+#first{
+    display:grid;
+    grid-template-columns : repeat(5, 1fr);  
+}
+#yep1{
+    display: grid;
+    grid-column: 1/ 2;
+    border-bottom: solid 1px white;
+    border-right: solid 1PX white;
+
+}
+#yep2{
+    display: grid;
+    grid-column: 2 / 3;
+    border-bottom: solid 1PX white;
+    border-right: solid 1px white;
+
+}
+#yep3{
+    display:grid;
+    grid-column: 3 / 4;
+    border-bottom: white 1px solid;
+    border-right:white 1Px solid;
+}
+#yep4{
+    display: grid;
+    grid-column: 4 / 5;
+    border-bottom: white 1px solid;
+    border-right:white 1Px solid;
+    
+}
+#yep5{
+    display: grid;
+    grid-column: 5 / 6;
+    border-bottom: white 1px solid;
+}
+
+#middle{
+    display:grid;
+    grid-template-columns : repeat(2, 1fr); 
+
+}
+#yep6{
+    display: grid;
+    grid-column: 1/2;
+    border-bottom:solid 1px white;
+    border-right:solid 1Px white;
+}
+
+#yep7{
+    display: grid;
+    grid-column: 2/3;
+    border-bottom: white 1px solid;
+}
+
+
+#end{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+#yep8{
+    display: grid;
+    grid-column: 1/2;
+    border-right:white 1px solid;
+}
+#yep9{
+    display: grid;
+    grid-column: 2/3;
+    border-right:white 1px solid;
+
+}
+#yep10{
+    grid-column: 3/4;
+    display: grid;
+}
