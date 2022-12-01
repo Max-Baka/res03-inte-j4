@@ -63,19 +63,24 @@ body{
             border-right: solid 1PX white;
         }
     }
-}
-
-body{
-    
     #middle{
         
         display:grid;
         grid-template-columns : repeat(2, 1fr); 
 
-        p{
-            display: grid;
-            border-bottom:solid 1px white;
-            border-right:solid 1Px white;
-            }
+            p{
+                display: grid;
+                border-bottom:solid 1px white;
+                border-right:solid 1Px white;
+                }
         }
+    #end{
+        display:grid;
+        grid-template-columns: repeat(3 ,1fr);
+        
+            p{
+                 border-right:solid 1Px white;
+            }
     }
+}
+
